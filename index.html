@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <Link rel="stylesheet" href="style.css">
+<Link rel="stylesheet" href="scrept.js">
+</head>
+<body>
+    <header>
+        <h1>شقة للبيع في ميدان سفنكس مساحة 190 متر</h1>
+        <h2 class="m">العنوان: شارع جامعة الدول</h2>
+    </header>
+
+    <section id="menu">
+        
+        <div class="menu-item" onclick="openLightbox('sushi1.jpg')">
+            <img src="img/f40f138f-26d2-441c-a716-4ce5533f9563.jpg" alt="سوشي 1">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi2.jpg')">
+            <img src="img/22.jpg" alt="سوشي 2">
+        
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi3.jpg')">
+            <img src="img/223.jpg" alt="سوشي 3">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi4.jpg')">
+            <img src="img/2234.jpg" alt="سوشي 4">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi5.jpg')">
+            <img src="img/2.jpg" alt="سوشي 5">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi6.jpg')">
+            <img src="img/3.jpg" alt="سوشي 6">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi7.jpg')">
+            <img src="img/4.jpg" alt="سوشي 7">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi8.jpg')">
+            <img src="img/5.jpg" alt="سوشي 8">
+            
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi9.jpg')">
+            <img src="img/6.jpg" alt="سوشي 9">
+        
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/7.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/8.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/مطبخ.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/مطبخ2.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/مطبخ3.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/حمام ص.jpg" alt="عرض خاص">
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/حمام ك.jpg" alt="عرض خاص">
+        </div>
+       
+    </section>
+
+    <!-- نافذة عرض الصورة المنبثقة -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" class="lightbox-img">
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>للتواصل: <strong>01227041496</strong></p>
+            <p>تليفون: <strong>01092782724</strong></p>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
